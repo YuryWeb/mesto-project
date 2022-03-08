@@ -47,4 +47,4 @@
 
 /* стили секции popup */
 @import url("../blocks/popup/popup.css");
-@import url("../blocks/popup/_opened/popup_opened.css"); /* закомментировать чтобы убрать попап */
+/* @import url("../blocks/popup/_opened/popup_opened.css"); !!! раскомментировать для активации попап */
