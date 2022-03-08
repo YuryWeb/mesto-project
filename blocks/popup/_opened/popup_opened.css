@@ -1,0 +1,7 @@
+/* базовый фрейм 1280px */
+
+.popup_opened {
+  display: block;
+}
+
+/* display: flex; justify-content: center; align-items: center;*/

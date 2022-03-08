@@ -1,0 +1,28 @@
+/* базовый фрейм 1280px */
+
+.profile__addbutton {
+  width: 150px;
+  height: 50px;
+  background-color: #000;
+  background-image: url(../../../images/plus_white.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.profile__addbutton:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 875px) {
+  .profile__addbutton {
+    display: block;
+    margin: 0 auto;
+    width: 282px;
+    height: 50px;
+  }
+}

@@ -1,0 +1,21 @@
+/* базовый фрейм 1280px */
+
+.header {
+  margin: 0 auto 40px;
+  max-width: 880px; /* макс.ширина */
+  min-height: 119px; /* 45 верхний отступ, 74 - высота по макету */
+  padding: 45px 0 0 0;
+  /* max-width: 880px; размер header по макету*/
+  /* padding: 45px 200px 0 200px; */
+  /* min-height: 74px; */
+  display: flex;
+  border-bottom: 1px solid #545454;
+  /* border: solid 1px #1225d3; */
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    min-height: 84px; /* с учетом верхнего отступа 28 */
+    padding-top: 28px;
+  }
+}

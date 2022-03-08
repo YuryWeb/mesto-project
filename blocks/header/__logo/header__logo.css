@@ -1,0 +1,20 @@
+/* базовый фрейм 1280px */
+/* Изображение логотипа*/
+.header__logo {
+  margin: 0;
+  background-image: url(../../../images/mesto-logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  max-width: 176px;
+  min-height: 52px;
+  /* border: solid red 1px; Вспомогательная рамка */
+}
+
+@media screen and (max-width: 900px) {
+  .header__logo {
+    margin-left: 27px;
+  }
+}

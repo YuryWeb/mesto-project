@@ -1,0 +1,25 @@
+/* базовый фрейм 1280px */
+
+.elements__element-like {
+  width: 22px;
+  height: 19px;
+  background-image: url(../../../images/like-disabled.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.elements__element-like:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.elements__element-like:active {
+  background-image: url(../../../images/like-active.svg);
+  opacity: 1;
+}

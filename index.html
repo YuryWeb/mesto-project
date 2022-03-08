@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./pages/index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto</title>
+    <meta name="description" content="Портфолио Юрий Егин на Яндекс Практикуме">
+    <meta name="keywords" content="html, css, javascript">
+    <meta name="author" content="Юрий Егин">
+</head>
+<body class="page">
+
+  <div >
+
+<!-- блок, header -->
+
+  <section class="header">
+    <div class="header__logo"></div>
+  </section>
+
+<!-- блок, profile -->
+
+  <section class="profile">
+
+    <div class="profile__block-info">
+    <img class="profile__avatar" src="images/zhak-iv-kusto.png" alt="Аватар Жак-Ив Кусто">
+
+    <div class="profile__profile-info">
+      <div class="profile__editinfo">
+
+        <h1 class="profile__avatar-header">Жак-Ив Кусто</h1>
+        <form action="">
+          <button class="profile__editbutton" type="button" name="addbutton" aria-label=""></button>
+        </form>
+      </div>
+      <p class="profile__avatar-content">Исследователь океана</p>
+    </div>
+
+    </div>
+
+    <!-- кнопка добавления данных пользователя -->
+    <form action="">
+      <button class="profile__addbutton" type="button" name="addbutton" aria-label=""></button>
+    </form>
+
+
+  </section>
+
+<!-- блок, elements -->
+
+<section class="elements">
+  <div class="elements__element">
+    <img class="elements__element-image" src="images/park-monrepo-01.png" alt="Парк Монрепо">
+      <div class="elements__zone-signature">
+        <div class="elements__signature">
+          <p class="elements__element-text">Парк Монрепо</p>
+          <form action="">
+            <button class="elements__element-like" type="button" aria-label=""></button>
+          </form>
+        </div>
+      </div>
+  </div>
+
+  <div class="elements__element">
+    <img class="elements__element-image" src="images/park-gatchina.png" alt="Гатчинский парк">
+      <div class="elements__zone-signature">
+        <div class="elements__signature">
+          <p class="elements__element-text">Гатчинский парк</p>
+
+          <form action="">
+            <button class="elements__element-like" type="button" aria-label=""></button>
+          </form>
+
+        </div>
+      </div>
+  </div>
+
+  <div class="elements__element">
+    <img class="elements__element-image" src="images/aleksandrovskij-park-2.png" alt="Александровский парк">
+      <div class="elements__zone-signature">
+        <div class="elements__signature">
+          <p class="elements__element-text">Александровский парк</p>
+          <form action="">
+            <button class="elements__element-like" type="button" aria-label=""></button>
+          </form>
+        </div>
+      </div>
+  </div>
+
+  <div class="elements__element">
+    <img class="elements__element-image" src="images/kareliya.png" alt="Карелия">
+      <div class="elements__zone-signature">
+        <div class="elements__signature">
+          <p class="elements__element-text">Рускеала, Карелия</p>
+          <form action="">
+            <button class="elements__element-like" type="button" aria-label=""></button>
+          </form>
+        </div>
+      </div>
+  </div>
+
+  <div class="elements__element">
+    <img class="elements__element-image" src="images/aleksandrovskij-park-1.png" alt="Александровский парк">
+      <div class="elements__zone-signature">
+        <div class="elements__signature">
+          <p class="elements__element-text">Александровский парк</p>
+          <form action="">
+            <button class="elements__element-like" type="button" aria-label=""></button>
+          </form>
+        </div>
+      </div>
+  </div>
+
+  <div class="elements__element">
+    <img class="elements__element-image" src="images/park-monrepo-02.png" alt="Парк Монрепо">
+      <div class="elements__zone-signature">
+        <div class="elements__signature">
+          <p class="elements__element-text">Парк Монрепо</p>
+          <form action="">
+            <button class="elements__element-like" type="button" aria-label=""></button>
+          </form>
+        </div>
+      </div>
+  </div>
+
+</section>
+
+
+<!-- <input class="form-popups__submit-buttom form-popups__submit-buttom_text" type="submit" name="submitForm" value="Сохранить">  -->
+
+
+</section>
+<!-- блок, footer -->
+
+<section class="footer">
+  <p class="footer__copyright">© 2020 Mesto Russia</p>
+</section>
+
+  </div> <!-- окончание дива page -->
+
+<!-- блок, модальное окно -->
+  <section class="popup popup_opened"> <!-- задание полупрозрачного фона -->
+    <div class="form-popup"> <!-- модальное окно -->
+
+      <div class="form-popup__close-item">
+        <!-- <img src="images/close-icon-white.png" alt="Кнопка закрыть окно"> -->
+      </div>
+        <h2 class="form-popup__heading">Редактировать профиль</h2>
+
+        <form action="">
+        <!-- Информация о пользователе -->
+         <input class="form-popup__item form-popup__item_text form-popup__item_line-bottom"
+          type="text"
+          id="user-name"
+          name="username"
+          placeholder="Введите Ваше имя"
+          required
+         >
+         <input class="form-popup__item form-popup__item_text form-popup__item_line-bottom"
+          type="text"
+          id="user-info"
+          name="userinfo"
+          placeholder="Информация о себе"
+          required
+         >
+
+         <!-- кнопка отправки данных формы -->
+         <button class="form-popups__submit-buttom form-popups__submit-buttom_text" type="button" name="submitForm">Сохранить</button>
+
+        </form>
+
+    </div>
+</section>
+
+
+
+</body>
+</html>
+

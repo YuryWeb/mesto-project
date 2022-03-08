@@ -1,0 +1,16 @@
+/* базовый фрейм 1280px */
+
+.elements__element-text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 0;
+  margin: 0;
+  color: #000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+  /* border: solid 1px #0de74f; Вспомогательная рамка */
+}

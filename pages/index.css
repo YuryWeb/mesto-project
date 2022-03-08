@@ -1,0 +1,50 @@
+/* подключение стилей normalize */
+@import url("../vendor/normalize.css");
+
+/* подключение шрифта */
+@import url("../vendor/fonts/fonts.css");
+
+/* стили секции page */
+@import url("../blocks/page/page.css");
+
+/* стили секции header */
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__logo/header__logo.css");
+
+/* стили секции profile */
+@import url("../blocks/profile/profile.css");
+@import url("../blocks/profile/__avatar/profile__avatar.css");
+@import url("../blocks/profile/__avatar-header/profile__avatar-header.css");
+@import url("../blocks/profile/__profile-info/profile__profile-info.css");
+@import url("../blocks/profile/__avatar-content/profile__avatar-content.css");
+@import url("../blocks/profile/__addbutton/profile__addbutton.css");
+@import url("../blocks/profile/__editbutton/profile__editbutton.css");
+@import url("../blocks/profile/__editinfo/profile__editinfo.css");
+@import url("../blocks/profile/__block-info/profile__block-info.css");
+
+/* стили секции elements */
+@import url("../blocks/elements/elements.css");
+@import url("../blocks/elements/__element/elements__element.css");
+@import url("../blocks/elements/__element-text/elements__element-text.css");
+@import url("../blocks/elements/__zone-signature/elements__zone-signature.css");
+@import url("../blocks/elements/__element-image/elements__element-image.css");
+@import url("../blocks/elements/__element-like/elements__element-like.css");
+@import url("../blocks/elements/__signature/elements__signature.css");
+
+/* стили секции footer */
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
+
+/* стили секции form */
+@import url("../blocks/form-popup/form-popup.css");
+@import url("../blocks/form-popup/__heading/form-popup__heading.css");
+@import url("../blocks/form-popup/__item/form-popup__item.css");
+@import url("../blocks/form-popup/__submit-buttom/form-popups__submit-buttom.css");
+@import url("../blocks/form-popup/__submit-buttom/_text/form-popups__submit-buttom_text.css");
+@import url("../blocks/form-popup/__item/_text/form-popup__item_text.css");
+@import url("../blocks/form-popup/__close-item/form-popup__close-item.css");
+@import url("../blocks/form-popup/__item/_line/form-popup__item_line.css");
+
+/* стили секции popup */
+@import url("../blocks/popup/popup.css");
+@import url("../blocks/popup/_opened/popup_opened.css"); /* закомментировать чтобы убрать попап */

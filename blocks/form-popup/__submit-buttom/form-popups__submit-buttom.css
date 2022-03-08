@@ -1,0 +1,22 @@
+/* Поле ввода данных формы */
+
+.form-popups__submit-buttom {
+  width: 358px;
+  height: 50px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  background: #000000;
+  border-radius: 2px;
+}
+
+.form-popups__submit-buttom:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .form-popups__submit-buttom {
+    width: 238px;
+  }
+}

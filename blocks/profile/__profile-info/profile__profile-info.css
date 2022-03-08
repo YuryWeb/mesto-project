@@ -1,0 +1,11 @@
+/* базовый фрейм 1280px */
+
+.profile__profile-info {
+  max-width: 336px;
+  min-width: 73px; /* ПОТОМ ПОМЕНЯТЬ!!! */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  /* border: solid 1px #e05f09; Вспомогательная рамка */
+}

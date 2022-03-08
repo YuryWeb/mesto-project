@@ -1,0 +1,27 @@
+/* базовый фрейм 1280px */
+
+.profile__avatar-header {
+  max-width: 294px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px; /* or 114% */
+  color: #ffffff;
+  margin: 22px 0 0 0;
+  padding: 0;
+  /* border: solid 1px #e05f09; Вспомогательная рамка */
+}
+
+@media screen and (max-width: 875px) {
+  .profile__avatar-header {
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .profile__avatar-header {
+    font-size: 27px;
+    line-height: 33px;
+  }
+}

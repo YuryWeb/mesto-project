@@ -1,0 +1,12 @@
+/* базовый фрейм 1280px */
+
+.elements__element {
+  max-width: 282px;
+  min-height: 361px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  /* border: solid 1px #bf21df; */
+}

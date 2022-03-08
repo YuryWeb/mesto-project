@@ -1,0 +1,17 @@
+/* базовый фрейм 1280px, копирайт футера */
+
+.footer__copyright {
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #545454;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 915px) {
+  .footer__copyright {
+    margin-left: 19px;
+  }
+}

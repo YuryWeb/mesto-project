@@ -1,0 +1,25 @@
+/* базовый фрейм 1280px */
+
+.elements {
+  margin: 0 auto 67px;
+  max-width: 880px; /* макс.ширина */
+  min-height: 744px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+  gap: 20px 17px; /* между строками, между столбцами */
+  /* border: solid 1px #bf21df; */
+}
+
+@media screen and (max-width: 915px) {
+  .elements {
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .elements {
+    grid-template-columns: 1fr;
+    margin-bottom: 48px;
+  }
+}

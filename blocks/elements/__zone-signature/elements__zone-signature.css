@@ -1,0 +1,10 @@
+/* базовый фрейм 1280px */
+
+.elements__zone-signature {
+  max-width: 282px;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  /* border: solid 1px #fff; */
+  border-radius: 0 0 10px 10px;
+}

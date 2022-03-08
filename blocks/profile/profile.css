@@ -1,0 +1,19 @@
+/* базовый фрейм 1280px */
+
+.profile {
+  margin: 0 auto 51px;
+  max-width: 880px; /* макс.ширина */
+  min-height: 120px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  /* border: solid 1px #e05f09; Вспомогательная рамка */
+}
+
+@media screen and (max-width: 875px) {
+  .profile {
+    margin-left: 19px;
+    margin-right: 19px;
+    flex-direction: column;
+  }
+}

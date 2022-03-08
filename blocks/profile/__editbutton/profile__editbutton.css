@@ -1,0 +1,19 @@
+/* базовый фрейм 1280px */
+
+.profile__editbutton {
+  width: 24px;
+  height: 24px;
+  background-color: #000;
+  background-image: url(../../../images/pencil.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  margin: 0 0 0 18px;
+}
+
+.profile__editbutton:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
