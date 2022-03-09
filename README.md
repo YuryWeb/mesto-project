@@ -24,7 +24,7 @@
 - Секция elements
 - Секция footer
 
-- Модальное окно [без JS, комментарий см. в файле index.css. Для активации попап надо раскомментировать @import url("../blocks/popup/_opened/popup_opened.css"); в файле index.css ]
+- Модальное окно [без JS, комментарий см. в файле index.css. Для активации !!! попап надо раскомментировать @import url("../blocks/popup/_opened/popup_opened.css"); в файле index.css ]
 
 ### Технологии
 

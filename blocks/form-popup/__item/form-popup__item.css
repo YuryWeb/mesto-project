@@ -11,8 +11,15 @@
   outline-color: #fff;
 }
 
+.form-popup__item:nth-child(2) {
+  margin-bottom: 48px;
+}
+
 @media screen and (max-width: 600px) {
   .form-popup__item {
     width: 238px;
+  }
+  .form-popup__item:nth-child(2) {
+    margin-bottom: 45px;
   }
 }
