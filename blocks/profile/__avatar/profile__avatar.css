@@ -10,7 +10,7 @@
   /* border: solid 1px #e05f09; Вспомогательная рамка */
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 900px) {
   .profile__avatar {
     display: block;
     margin: 0 auto 23px;

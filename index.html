@@ -12,8 +12,6 @@
 </head>
 <body class="page">
 
-  <div >
-
 <!-- header страницы -->
 
   <header class="header">
@@ -107,8 +105,6 @@
   <p class="footer__copyright">© 2020 Mesto Russia</p>
 </footer>
 
-  </div> <!-- окончание дива page -->
-
 <!-- блок попап и модальное окно -->
   <section class="popup popup_opened"> <!-- задание полупрозрачного фона -->
     <div class="popup__form-popup"> <!-- модальное окно -->
@@ -117,7 +113,7 @@
 
         <h2 class="popup__heading">Редактировать профиль</h2>
 
-        <form action="" name="userform">
+        <form name="userform"> <!-- Атрибут action="" исключен по итогам проверки validator.w3.org -->
         <!-- Информация о пользователе -->
          <input class="popup__item"
           type="text"
