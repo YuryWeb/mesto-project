@@ -1,6 +1,6 @@
 /* Кнопка, Закрыть модальное окно */
 
-.form-popup__close-item {
+.popup__close {
   position: absolute;
   max-width: 32px;
   height: 32px;
@@ -10,20 +10,24 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  background-color: transparent;
   width: 100%;
   margin: 0;
   padding: 0;
+  border: 0;
 }
 
-.form-popup__close-item:hover {
+.popup__close:hover {
   opacity: 0.6;
+  transition: opacity 0.7s linear;
   cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
-  .form-popup__close-item {
+  .popup__close {
     max-width: 20px;
-    background-image: url(../../../images/close-icon-white-20-20.png);
+    height: 20px;
+    background-image: url(../../../images/close-icon-white-20-20.svg);
     right: 0;
     top: -36px;
   }

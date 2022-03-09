@@ -1,6 +1,6 @@
 /* базовый фрейм 1280px */
 
-.profile__addbutton {
+.profile__add-button {
   width: 150px;
   height: 50px;
   background-color: #000;
@@ -13,13 +13,14 @@
   border-radius: 2px;
 }
 
-.profile__addbutton:hover {
+.profile__add-button:hover {
   opacity: 0.6;
+  transition: opacity 1.2s linear;
   cursor: pointer;
 }
 
 @media screen and (max-width: 875px) {
-  .profile__addbutton {
+  .profile__add-button {
     display: block;
     margin: 0 auto;
     width: 282px;

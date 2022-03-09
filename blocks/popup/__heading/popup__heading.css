@@ -1,6 +1,6 @@
 /* Заголовок формы редактирования профилч */
 
-.form-popup__heading {
+.popup__heading {
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .form-popup__heading {
+  .popup__heading {
     font-size: 18px;
     line-height: 22px; /* identical to box height */
     margin-bottom: 75px;

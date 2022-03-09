@@ -3,8 +3,11 @@
 .elements__zone-signature {
   max-width: 282px;
   margin: 0;
-  padding: 0;
+  padding: 25px 15px 31px 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
   background: #ffffff;
-  /* border: solid 1px #fff; */
   border-radius: 0 0 10px 10px;
 }

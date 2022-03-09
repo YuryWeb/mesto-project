@@ -3,7 +3,6 @@
 .elements {
   margin: 0 auto 67px;
   max-width: 880px; /* макс.ширина */
-  min-height: 744px;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));

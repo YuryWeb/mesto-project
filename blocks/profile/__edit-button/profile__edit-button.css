@@ -1,6 +1,6 @@
 /* базовый фрейм 1280px */
 
-.profile__editbutton {
+.profile__edit-button {
   width: 24px;
   height: 24px;
   background-color: #000;
@@ -10,10 +10,10 @@
   background-size: auto;
   border: 1px solid #ffffff;
   box-sizing: border-box;
-  margin: 0 0 0 18px;
+  margin: 0 0 6px 18px;
 }
 
-.profile__editbutton:hover {
+.profile__edit-button:hover {
   opacity: 0.6;
   cursor: pointer;
 }

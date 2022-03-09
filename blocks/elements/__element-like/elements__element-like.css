@@ -1,7 +1,7 @@
 /* базовый фрейм 1280px */
 
 .elements__element-like {
-  width: 22px;
+  width: 29px;
   height: 19px;
   background-image: url(../../../images/like-disabled.svg);
   background-repeat: no-repeat;
@@ -9,6 +9,7 @@
   background-size: auto;
   background-color: #fff;
   box-sizing: border-box;
+  object-fit: cover;
   padding: 0;
   margin: 0;
   border: 0;
@@ -16,10 +17,12 @@
 
 .elements__element-like:hover {
   opacity: 0.6;
+  transition: opacity 0.7s linear;
   cursor: pointer;
 }
 
 .elements__element-like:active {
   background-image: url(../../../images/like-active.svg);
   opacity: 1;
+  transition: opacity 1.7s linear;
 }

@@ -3,8 +3,13 @@
 .footer {
   margin: 0 auto 60px;
   max-width: 880px; /* макс.ширина */
-  min-height: 18px;
   box-sizing: border-box; /* фиксация внешних размеров блока */
   padding: 0;
   /* border: solid 1px #0ee70e; Вспомогательная рамка */
+}
+
+@media screen and (max-width: 625px) {
+  .footer {
+    margin-bottom: 36px;
+  }
 }

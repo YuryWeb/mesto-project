@@ -17,9 +17,9 @@
 @import url("../blocks/profile/__avatar-header/profile__avatar-header.css");
 @import url("../blocks/profile/__profile-info/profile__profile-info.css");
 @import url("../blocks/profile/__avatar-content/profile__avatar-content.css");
-@import url("../blocks/profile/__addbutton/profile__addbutton.css");
-@import url("../blocks/profile/__editbutton/profile__editbutton.css");
-@import url("../blocks/profile/__editinfo/profile__editinfo.css");
+@import url("../blocks/profile/__add-button/profile__add-button.css");
+@import url("../blocks/profile/__edit-button/profile__edit-button.css");
+@import url("../blocks/profile/__edit-info/profile__edit-info.css");
 @import url("../blocks/profile/__block-info/profile__block-info.css");
 
 /* стили секции elements */
@@ -35,16 +35,12 @@
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 
-/* стили секции form */
-@import url("../blocks/form-popup/form-popup.css");
-@import url("../blocks/form-popup/__heading/form-popup__heading.css");
-@import url("../blocks/form-popup/__item/form-popup__item.css");
-@import url("../blocks/form-popup/__submit-buttom/form-popups__submit-buttom.css");
-@import url("../blocks/form-popup/__submit-buttom/_text/form-popups__submit-buttom_text.css");
-@import url("../blocks/form-popup/__item/_text/form-popup__item_text.css");
-@import url("../blocks/form-popup/__close-item/form-popup__close-item.css");
-@import url("../blocks/form-popup/__item/_line/form-popup__item_line.css");
-
 /* стили секции popup */
 @import url("../blocks/popup/popup.css");
-/* @import url("../blocks/popup/_opened/popup_opened.css");  !!! раскомментировать для активации попап */
+@import url("../blocks/popup/__form-popup/popup__form-popup.css");
+@import url("../blocks/popup/__close/popup__close.css");
+@import url("../blocks/popup/__heading/popup__heading.css");
+@import url("../blocks/popup/__item/popup__item.css");
+@import url("../blocks/popup/__submit-buttom/popup__submit-buttom.css");
+
+@import url("../blocks/popup/_opened/popup_opened.css"); /*  !!! раскомментировать для активации попап */

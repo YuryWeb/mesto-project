@@ -1,6 +1,6 @@
 /* базовый фрейм 1280px */
 
-.profile__editinfo {
+.profile__edit-info {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;

@@ -8,13 +8,21 @@
   background-size: contain;
   width: 100%;
   height: 100%;
-  max-width: 176px;
-  min-height: 52px;
+  max-width: 142px;
+  min-height: 33px;
   /* border: solid red 1px; Вспомогательная рамка */
 }
 
 @media screen and (max-width: 900px) {
   .header__logo {
     margin-left: 27px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .header__logo {
+    background-image: url(../../../images/mesto-logo-small.svg);
+    max-width: 104px;
+    min-height: 25px;
   }
 }
