@@ -43,4 +43,4 @@
 @import url("../blocks/popup/__item/popup__item.css");
 @import url("../blocks/popup/__submit-buttom/popup__submit-buttom.css");
 
-@import url("../blocks/popup/_opened/popup_opened.css"); /*  !!! раскомментировать для активации попап */
+/* @import url("../blocks/popup/_opened/popup_opened.css"); !!! раскомментировать для активации попап */
