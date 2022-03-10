@@ -18,7 +18,7 @@
   font-display: swap;
 }
 
-/* подключение полужирного начертания 900 */
+/* подключение полужирного начертания 900, заголовки в секции Element */
 
 @font-face {
   src: url("../../vendor/fonts/inter/Inter-Black.woff2") format("woff2"),
